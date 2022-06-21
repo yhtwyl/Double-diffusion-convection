@@ -1,5 +1,5 @@
 # Double-diffusion-convection
-To run this code on linux you may have to have on your machine gfortran and mpich installed. These two are easily available online. 
+To run this code on linux you have to have on your machine gfortran and mpich installed. These two are easily available online. 
 I have not tested these on windows or Mac.
 # Brief introduction on what these codes simulate
 This is a parallelised fortran code for simulating salt fingers in double diffusion convection[1,2]. 
