@@ -1,0 +1,43 @@
+Supply - NX,NY,NZ,BIG1,BIG2 PHID1 PHID2 PHID3
+16 16 32  0.8  0.46  0.0 0.0 0.0
+GRAST , IT  ,  GRASM ,    IC, PRANDTL, SCHMDT,  THIGH, TLOW   
+1E+6     1    0.96E+6      1    7      70     0.0    1.0  	     
+DTAU(secs),TAUMAX(seconds),IFLAG,  ARXZ,  ARYZ, CONMAS,  NACELL
+3.18E-8    3.18E-7             1      1    1    1.0E-03    0
+ ITLIM ,  ITMASS , NTAU,  NITMAX  NUSOPT  NTAUSTEP  NFUN     NKINE   INIT_ITER
+ 9999944    0      600    60     1       5000    200      500        10000  
+ ERMASS,  ERTEM,   ERTEC,   ERU,     ERV,      ERZ       SIGN
+ 1.E-03   1.E-03   1.E-03  1.E-03   1.E-03   1.E-03      -1
+ RELAXU  RELAXV  RELAXW   RELAXT   RELAXC
+  0.3      0.3     0.3     0.3      0.3
+ TINBOT  CINBOT  TINTOP  CINTOP
+   0      0        1.0     1.0
+ ISTEADY  ISCHEME  ISLIP  ITBOT  ITTOP  ICBOT  ICTOP
+   0         0       1      0     0      0      0
+ ITBGRAD  ITTGRAD  ICBGRAD  ICTGRAD 
+   0        0        0        0 
+ Want to change x-coordinate
+ 1
+ Want to change y-coordinate
+ 1
+ Want to change z-coordinate
+ 1
+ Want to see parameters at the terminal
+ 1
+ Want to read data from the output files
+ 0
+ want to check data from output files
+ 0                 
+ Number of tracer particles
+1
+ X - coordinate of tracer particles
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 xx 0.26 0.27 0.27 0.27 0.27 0.27 0.265 0.265 0.25
+ Y - coordinate of tracer particles
+0.050 0.10 0.200 0.30 0.400 0.50 0.600 0.70 0.800 0.9 0.95 ix 0.325 0.375 0.575 0.625 0.675  0.150 0.850 0.500
+NAVTAU NFINE  nniter   nnfine 	 NPWD   NXBIG  NYBIG NZBIG
+1      	 1   100000    50000    500000    1      1     1
+KKKKK
+
+
+0.050 0.10 0.200 0.30 .400 0.50 0.600 0.70 0.800 0.9 0.95 ix 0.325 0.375 0.575 0.625 0.675  0.150 0.850 0.500
+0.345  0.357 0.345  0.357 0.345 0.357 0.345 0.357 0.345 0.357 0.345 xx 0.26 0.27 0.27 0.27 0.27 0.27 0.265 0.265 0.25
