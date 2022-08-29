@@ -1,6 +1,6 @@
 # Double-diffusion-convection
-To run this code on linux you have to have gfortran and mpich installed on your machine. These two are easily available online. 
-I have not tested these on windows or Mac.
+To run this code on linux you have to have gfortran and mpich installed on your machine. These two are easily available online. Once are sure you have these on your system second step would be to run the makefile. In thirs step you have to use >> mpirun -np main_3d.o and link all the remaining subroutines object files. full understanding of the run can be gained from this link https://www.open-mpi.org/doc/current/man1/mpirun.1.php
+# I have not tested these codes on Windows or Mac.
 # Brief introduction on what these codes simulate
 This is a parallelised fortran code for simulating salt fingers in double diffusion convection[1,2]. 
 Double diffusive convection (DDC) is the buoyancy-driven flow, with density depending on two different diffusing scalar components, 
