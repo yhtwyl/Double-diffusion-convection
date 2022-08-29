@@ -11,7 +11,7 @@ The stable stratification of molten constituents in the interiors of planets and
 reducing the background gradients to change their internal structure.
 This code solves transient Navier-Stokes equations, by following Finite Volume Method and adopting SIMPLER algorithm.
 The pnew_3d.inp files contains all the parameters arising from non-dimensionalisatoin of the NS Equation, which can be found in reports[3,4]
-In the pnew_3d.inp non-dimensionalised numbers - Rayleigh number, Grashof number, prandtl and schmidt number can be changed to observe the effect of these on the evolution of DDC system. Formulation of the governing non-dimensionalised form of the equation can be found in the ManojDhimanMS.pdf 
+In the pnew_3d.inp non-dimensionalised numbers - Rayleigh number, Grashof number, prandtl and schmidt number can be changed to observe the effect of these on the evolution of DDC system. Formulation of the governing non-dimensionalised form of the equation can be found in the MastersThesis.pdf 
 The result files are written in binary form and you may need wtite your code to read thees output files.
 To expedite the increased size of 3D problem, parallelisation was done using MPI.
 At different values of Rayleigh number and density ratio variety of planforms can be observed.  
